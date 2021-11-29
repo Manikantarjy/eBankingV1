@@ -8,9 +8,11 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -96,4 +98,18 @@ public class BaseClass {
 		return (generatedString2);
 		}
 	
-}
+		public static WebElement custId1()
+		{
+		WebElement custId1 = driver.findElement(By.xpath("//table[@id='customer']//tr[4]/td[2]"));
+		
+		//WebElement custId2 = driver.findElement(By.xpath("//input[@name= 'cusid']"));
+		
+		return custId1;
+
+		
+		}
+		
+	
+		
+		}
+

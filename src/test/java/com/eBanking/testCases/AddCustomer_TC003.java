@@ -2,7 +2,7 @@ package com.eBanking.testCases;
 
 import java.io.IOException;
 
-
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -11,6 +11,7 @@ import com.eBanking.pageObjects.LoginPage;
 
 public class AddCustomer_TC003 extends BaseClass{
 
+	
 	@Test
 	public void addNewCustomer() throws InterruptedException, IOException
 	{
@@ -27,15 +28,15 @@ public class AddCustomer_TC003 extends BaseClass{
 		logger.info("Providing customer details");
 		//Entering all the data
 		addcust.clickAddNewCustomer();
-		addcust.custName("Manik");
+		addcust.custName("Mani");
 		addcust.custgender("Male");
 		addcust.custdob("11", "07", "1993");
 		Thread.sleep(4000);
-		addcust.custaddress("Backers Street");
+		addcust.custaddress("145 Backers Street");
 		addcust.custcity("Hyd");
 		addcust.custstate("Telangana");
 		addcust.custpinno("5000032");
-		addcust.custtelephoneno("1234567890");
+		addcust.custtelephoneno("1234567810");
 		
 		String email = randomstring()+"@gmail.com";
 		addcust.custemailid(email);
@@ -43,9 +44,15 @@ public class AddCustomer_TC003 extends BaseClass{
 		addcust.custpassword("abdcedf");
 		addcust.custsubmit();
 		
+		
 		Thread.sleep(5000);
 		
 		logger.info("validation Started");
+		
+		WebElement custide = custId1();
+		addcust.CapturecustId(custide);
+		
+		
 	boolean regmsg = driver.getPageSource().contains("Customer Registered Successfully!!!");
 	
 	if(regmsg==true)
@@ -60,6 +67,12 @@ public class AddCustomer_TC003 extends BaseClass{
 		logger.info("Testcase is failed");
 	}	
 	
+
+	
+
 	}
+	
+	
+	
 	
 }

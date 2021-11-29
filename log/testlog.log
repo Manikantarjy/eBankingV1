@@ -205,3 +205,47 @@
 2021-11-27 19:18:34,516 - ebanking -INFO - Providing customer details
 2021-11-27 19:18:46,952 - ebanking -INFO - validation Started
 2021-11-27 19:18:47,027 - ebanking -INFO - Testcase is Passed
+2021-11-28 22:03:58,087 - ebanking -INFO - URL is opened
+2021-11-28 22:03:58,314 - ebanking -INFO - Entered username
+2021-11-28 22:03:58,416 - ebanking -INFO - Entered Password
+2021-11-28 22:04:00,667 - ebanking -INFO - login test passed
+2021-11-28 22:04:05,345 - ebanking -INFO - Username is Provided
+2021-11-28 22:04:05,441 - ebanking -INFO - Password is Provided
+2021-11-28 22:04:10,343 - ebanking -INFO - Providing customer details
+2021-11-28 22:04:22,552 - ebanking -INFO - validation Started
+2021-11-28 22:04:22,663 - ebanking -INFO - Testcase is Passed
+2021-11-28 22:07:07,450 - ebanking -INFO - URL is opened
+2021-11-28 22:07:07,650 - ebanking -INFO - Entered username
+2021-11-28 22:07:07,740 - ebanking -INFO - Entered Password
+2021-11-28 22:07:09,819 - ebanking -INFO - login test passed
+2021-11-28 22:07:14,472 - ebanking -INFO - Username is Provided
+2021-11-28 22:07:14,586 - ebanking -INFO - Password is Provided
+2021-11-28 22:07:19,997 - ebanking -INFO - Providing customer details
+2021-11-28 22:07:31,077 - ebanking -INFO - validation Started
+2021-11-28 22:07:35,613 - ebanking -INFO - Username is Provided
+2021-11-28 22:07:35,719 - ebanking -INFO - Password is Provided
+2021-11-28 22:07:40,517 - ebanking -INFO - Editing customer details
+2021-11-28 22:09:01,023 - ebanking -INFO - Username is Provided
+2021-11-28 22:09:01,124 - ebanking -INFO - Password is Provided
+2021-11-28 22:09:06,075 - ebanking -INFO - Providing customer details
+2021-11-28 22:09:18,465 - ebanking -INFO - validation Started
+2021-11-28 22:09:18,531 - ebanking -INFO - Testcase is Passed
+2021-11-28 22:09:23,366 - ebanking -INFO - Username is Provided
+2021-11-28 22:09:23,487 - ebanking -INFO - Password is Provided
+2021-11-28 22:09:28,266 - ebanking -INFO - Editing customer details
+2021-11-28 22:12:02,546 - ebanking -INFO - Username is Provided
+2021-11-28 22:12:02,639 - ebanking -INFO - Password is Provided
+2021-11-28 22:12:07,479 - ebanking -INFO - Providing customer details
+2021-11-28 22:12:20,129 - ebanking -INFO - validation Started
+2021-11-28 22:12:20,196 - ebanking -INFO - Testcase is Passed
+2021-11-28 22:12:24,711 - ebanking -INFO - Username is Provided
+2021-11-28 22:12:24,821 - ebanking -INFO - Password is Provided
+2021-11-28 22:12:30,168 - ebanking -INFO - Editing customer details
+2021-11-28 22:21:24,683 - ebanking -INFO - Username is Provided
+2021-11-28 22:21:24,798 - ebanking -INFO - Password is Provided
+2021-11-28 22:21:29,625 - ebanking -INFO - Providing customer details
+2021-11-28 22:21:42,273 - ebanking -INFO - validation Started
+2021-11-28 22:21:42,346 - ebanking -INFO - Testcase is Passed
+2021-11-28 22:21:46,717 - ebanking -INFO - Username is Provided
+2021-11-28 22:21:46,819 - ebanking -INFO - Password is Provided
+2021-11-28 22:21:51,620 - ebanking -INFO - Editing customer details
